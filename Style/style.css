@@ -1,8 +1,6 @@
- * {
-font-family: "Poppins", sans-serif;
- }
 
-  
- .font-Bng {
-   font-family: "Hind Siliguri", sans-serif;
+ .active {
+   background-color: #15803D;
+   color: white;
+   font-family: "Inter", sans-serif;
  }
