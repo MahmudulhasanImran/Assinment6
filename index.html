@@ -78,3 +78,56 @@
       </div>
     </section>       
     </header>
+
+    <main class="bg-[#F0FDF4]">
+    
+      <div class="flex justify-center  ">
+        <h1 class="text-center text-4xl font-semibold text-[#1F2937] mt-10 ">Choose Your Trees</h1>
+      </div>
+    
+    
+      <section class=" mt-12 max-w-[1240px] mx-auto p-4">
+    
+        <!-- parent flex on md+ screens, column on small screens -->
+        <div class="flex flex-col md:flex-row md:justify-between gap-4">
+    
+          <!-- Left: Categories -->
+          <div id="catagoriese" class="space-y-1 w-full md:w-1/6">
+            <button
+              class="btn btn-wide w-full md:w-auto border-none bg-[#F0FDF4] shadow-none justify-start text-left font-bold text-[20px]">
+              Categories
+            </button>
+          </div>
+    
+          <!-- Middle: Plants grid -->
+    
+          <div id="plantes" class="w-full md:w-9/12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+            <!-- JS will append cards here -->
+    
+    
+          </div>
+    
+          <!-- Right: Cart -->
+          <div id="cart" class="p-3 md:w-1/6 bg-white rounded-md">
+            <h3 class="p-2 text-xl font-bold mb-2">Your Cart</h3>
+            <div id="clear" class="border  bg-[#F0FDF4] rounded-md">
+              <div id="cartItems" class="list-disc pl-2 list-style:none font-semibold">
+    
+              </div>
+              <div class="flex justify-between items-center">
+                <p id="cartTotal" class="font-semibold px-2 mt-2">Total: ৳0</p>
+    
+                <i class="fa-solid fa-xmark text-red-500 text-xl cursor-pointer hover:scale-110 transition"
+                  onclick="clearCart()">
+                </i>
+              </div>
+            </div>
+    
+    
+    
+          </div>
+    
+    
+    
+        </div>
+      </section>
